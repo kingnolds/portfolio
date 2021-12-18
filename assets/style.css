@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light: rgb(236, 111, 61);
+    --dark: darkblue;
+}
