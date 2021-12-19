@@ -1,9 +1,250 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 :root {
-    --light: rgb(236, 111, 61);
-    --dark: darkblue;
+    --light: #ADEFD1FF;
+    --dark: #00203FFF;
 }
+
+header {
+    width: 100%;
+    /* position: relative; */
+    background-color: var(--dark);
+    color: var(--light);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    width: auto;
+    text-align: end;
+    display:inline-block;
+    background-color: var(--light);
+    color: var(--dark);
+    height: fit-content;
+    margin-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    width: auto;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-between; */
+    /* align-items: start; */
+    /* height: 33%; */
+}
+
+nav li {
+    /* flex-direction: row;
+    align-items: end;
+    justify-content: s; */
+    display: inline-block;
+    text-decoration: none;
+    padding: .5rem .7rem;
+}
+
+.nav a {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2rem;
+    color: var(--light);
+}
+
+.nav a:link {
+    text-decoration: none;
+  }
+  
+.nav a:visited {
+    text-decoration: none;
+  }
+  
+.nav a:hover {
+    text-decoration: underline;
+  }
+  
+.nav a:active {
+    text-decoration: underline;
+  }
+
+figure {
+    background-image: url(./images/pexels-olga-lioncat-7245553.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+figure h2 {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* align-items: flex-end; */
+    /* justify-content:  */
+    background-color: var(--dark);
+    height: fit-content;
+    padding: .5rem;
+    margin-bottom: .5rem;
+    color: var(--light);   
+}
+
+main {
+    display: flex;
+    background-color: whitesmoke;
+    flex-flow: column wrap;
+    
+}
+
+.card {
+    color: var(--dark);
+    display: flex;
+    padding: 1rem;
+}
+
+.title {
+    width: 20%;
+    min-width: 20%;
+    border-right: 3px solid var(--dark);
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    padding-right: 1rem;
+}
+
+.about-text {
+   display: flex;
+   padding: 1rem;
+}
+
+.work-container {
+    width: 100%;
+}
+
+.work-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    padding: 1.5%;
+}
+
+.work-card-big {
+    width: 100%;
+    height: 15rem;
+    border: .2rem solid var(--light);
+    background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0;
+    position: relative;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.work-card-big:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(236, 111, 61, 0.5);
+    display: none;
+}
+
+.work-card-big:hover::after {
+    display: block;
+}
+
+.work-card {
+    flex-direction: row;
+    width: 45%;
+    height: 4rem;
+    background-color: violet;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border: .1rem solid var(--light);
+    background: url(https://placedog.net/640/480?random) no-repeat 0, 0;
+    position: relative;
+    display: flex;
+}
+
+.work-card:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(236, 111, 61, 0.5);
+    display: none;
+}
+
+.work-card:hover::after {
+    display: block;
+}
+
+.links {
+    display: flex;
+    width: 90%;
+    list-style-type: none;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding-top: 2rem;
+    
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid var(--dark);
+}
+
+.link a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+.project {
+    width: fit-content;
+}
+
+.card-title{
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    bottom: .4rem;
+    background-color: var(--light);
+    padding: .1rem;
+    font-size: 1rem;
+    color: var(--dark);
+}
+
+.work-container a:link {
+        text-decoration: none;
+      }
+      
+.work-container a:visited {
+        text-decoration: none;
+      }
+      
+.work-container a:hover {
+        text-decoration: none;
+      }
+      
+.work-container a:active {
+        text-decoration: none;
+      }
