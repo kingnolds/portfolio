@@ -56,7 +56,7 @@ nav li {
 .nav a {
     font-weight: bold;
     text-decoration: underline;
-    font-size: 2rem;
+    font-size: 1.5em;
     color: var(--light);
 }
 
@@ -116,7 +116,7 @@ main {
     width: 20%;
     min-width: 20%;
     border-right: 3px solid var(--dark);
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
@@ -137,8 +137,8 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 1rem;
-    padding: 1.5%;
+    /* margin-top: 1rem; */
+    padding: 0 1.5%;
 }
 
 .work-card-big {
@@ -196,6 +196,10 @@ main {
     display: block;
 }
 
+#second-project {
+    background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0;
+}
+
 .links {
     display: flex;
     width: 90%;
@@ -229,7 +233,7 @@ main {
     bottom: .4rem;
     background-color: var(--light);
     padding: .1rem;
-    font-size: 1rem;
+    font-size: 1em;
     color: var(--dark);
 }
 
@@ -248,3 +252,20 @@ main {
 .work-container a:active {
         text-decoration: none;
       }
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 10px ;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 6px;
+    }
+    .work-card {
+        flex-direction: column;
+        width: 100%;
+    }
+}
