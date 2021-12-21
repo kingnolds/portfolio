@@ -238,16 +238,18 @@ main {
     background: url(./images/CSS_snippet.png) no-repeat 0, 0;
 }
 
-#second-project {
-    /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
+#third-project {
+    background: url(https://placekitten.com/200/300) no-repeat 0, 0;
+    background-size: cover ;
 }
 
 #second-project {
     /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
 }
 
-#second-project {
-    /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
+#fifth-project {
+    background: url(https://placebear.com/640/360) no-repeat 0, 0;
+    background-size: cover;
 }
 
 .work-container a:link {
