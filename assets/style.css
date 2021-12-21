@@ -35,6 +35,14 @@ header h1 {
     margin-bottom: .5rem;
 }
 
+.portrait {
+    background-image: url(./images/portait.jpeg);
+    border-radius: 100%;
+    height: 1em;
+    width: 1em;
+    margin-top: .3em;
+}
+
 nav ul {
     display: flex;
     list-style-type: none;
