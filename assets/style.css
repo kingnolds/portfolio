@@ -28,7 +28,7 @@ header h1 {
     display:inline-block;
     background-color: var(--light);
     color: var(--dark);
-    height: fit-content;
+    height: 90%;
     margin-top: 1.5rem;
     padding-left: 1.5rem;
     padding-right: .5rem;
