@@ -9,6 +9,8 @@
     --dark: #00203FFF;
 }
 
+/* Header */
+
 header {
     width: 100%;
     /* position: relative; */
@@ -37,11 +39,6 @@ nav ul {
     display: flex;
     list-style-type: none;
     width: auto;
-    /* flex-direction: row; */
-    /* flex-wrap: nowrap; */
-    /* justify-content: space-between; */
-    /* align-items: start; */
-    /* height: 33%; */
 }
 
 nav li {
@@ -76,6 +73,8 @@ nav li {
     text-decoration: underline;
   }
 
+  /* Central figure */
+
 figure {
     background-image: url(./images/pexels-olga-lioncat-7245553.jpg);
     width: 100%;
@@ -98,6 +97,8 @@ figure h2 {
     margin-bottom: .5rem;
     color: var(--light);   
 }
+
+/* Main */
 
 main {
     display: flex;
@@ -128,6 +129,24 @@ main {
    display: flex;
    padding: 1rem;
 }
+
+.card-title {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0;
+    bottom: .4rem;
+    background-color: var(--light);
+    padding: .1rem;
+    font-size: .8em;
+    color: var(--dark);
+}
+
+.project {
+    width: fit-content;
+}
+
+/* Work cards */
 
 .work-container {
     width: 100%;
@@ -200,6 +219,26 @@ main {
     background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0;
 }
 
+.work-container a:link {
+    text-decoration: none;
+  }
+  
+.work-container a:visited {
+    text-decoration: none;
+  }
+  
+.work-container a:hover {
+    text-decoration: none;
+  }
+  
+.work-container a:active {
+    text-decoration: none;
+  }
+
+/* End Work Cards */
+
+/* Contact Me links */
+
 .links {
     display: flex;
     width: 90%;
@@ -221,37 +260,7 @@ main {
     text-decoration: none;
 }
 
-.project {
-    width: fit-content;
-}
-
-.card-title{
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
-    left: 0;
-    bottom: .4rem;
-    background-color: var(--light);
-    padding: .1rem;
-    font-size: 1em;
-    color: var(--dark);
-}
-
-.work-container a:link {
-        text-decoration: none;
-      }
-      
-.work-container a:visited {
-        text-decoration: none;
-      }
-      
-.work-container a:hover {
-        text-decoration: none;
-      }
-      
-.work-container a:active {
-        text-decoration: none;
-      }
+/* Responsive design modifiers */
 
 @media screen and (max-width: 768px) {
     body {
