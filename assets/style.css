@@ -140,6 +140,7 @@ main {
     padding: .1rem;
     font-size: .8em;
     color: var(--dark);
+    z-index: 3;
 }
 
 .project {
@@ -170,7 +171,7 @@ main {
     align-items: flex-end;
 }
 
-.work-card-big:after {
+/* .work-card-big:after {
     position: absolute;
     content: " ";
     top: 0;
@@ -180,26 +181,44 @@ main {
     z-index: 0;
     background-color: rgba(236, 111, 61, 0.5);
     display: none;
-}
+} */
 
-.work-card-big:hover::after {
+/* .work-card-big:hover::after {
     display: block;
-}
+} */
 
 .work-card {
     flex-direction: row;
     width: 45%;
     height: 4rem;
-    background-color: violet;
+    /* background-color: violet; */
     justify-content: space-between;
     margin-top: 1rem;
     border: .1rem solid var(--light);
     background: url(https://placedog.net/640/480?random) no-repeat 0, 0;
+    /* background-color: rgba(236, 111, 61, 0.5); */
     position: relative;
     display: flex;
 }
 
-.work-card:after {
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 33%;
+    transition: .5s ease;
+    background-color: var(--light);
+}
+
+.overlay:hover {
+    opacity: 0;
+}
+
+/* .work-card:after {
     position: absolute;
     content: " ";
     top: 0;
@@ -209,14 +228,26 @@ main {
     z-index: 0;
     background-color: rgba(236, 111, 61, 0.5);
     display: none;
-}
+} */
 
-.work-card:hover::after {
+/* .work-card:hover::after {
     display: block;
+} */
+
+#second-project {
+    background: url(./images/CSS_snippet.png) no-repeat 0, 0;
 }
 
 #second-project {
-    background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0;
+    /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
+}
+
+#second-project {
+    /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
+}
+
+#second-project {
+    /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
 }
 
 .work-container a:link {
@@ -235,7 +266,6 @@ main {
     text-decoration: none;
   }
 
-/* End Work Cards */
 
 /* Contact Me links */
 
