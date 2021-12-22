@@ -18,3 +18,8 @@ https://www.w3schools.com/
 
 Flex-box cards guide 
 https://codepen.io/cssgirl/pen/NGKgrM
+
+Placeholder images
+https://placekitten.com/
+https://placebear.com/
+https://placedog.net/
