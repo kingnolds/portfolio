@@ -13,7 +13,6 @@
 
 header {
     width: 100%;
-    /* position: relative; */
     background-color: var(--dark);
     color: var(--light);
     display: flex;
@@ -50,9 +49,6 @@ nav ul {
 }
 
 nav li {
-    /* flex-direction: row;
-    align-items: end;
-    justify-content: s; */
     display: inline-block;
     text-decoration: none;
     padding: .5rem .7rem;
@@ -96,9 +92,6 @@ figure {
 
 figure h2 {
     display: flex;
-    /* flex-direction: row-reverse; */
-    /* align-items: flex-end; */
-    /* justify-content:  */
     background-color: var(--dark);
     height: fit-content;
     padding: .5rem;
@@ -165,7 +158,6 @@ main {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* margin-top: 1rem; */
     padding: 0 1.5%;
 }
 
@@ -179,32 +171,15 @@ main {
     align-items: flex-end;
 }
 
-/* .work-card-big:after {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    background-color: rgba(236, 111, 61, 0.5);
-    display: none;
-} */
-
-/* .work-card-big:hover::after {
-    display: block;
-} */
 
 .work-card {
     flex-direction: row;
     width: 45%;
     height: 4rem;
-    /* background-color: violet; */
     justify-content: space-between;
     margin-top: 1rem;
     border: .1rem solid var(--light);
     background: url(https://placedog.net/640/480?random) no-repeat 0, 0;
-    /* background-color: rgba(236, 111, 61, 0.5); */
     position: relative;
     display: flex;
 }
@@ -226,21 +201,6 @@ main {
     opacity: 0;
 }
 
-/* .work-card:after {
-    position: absolute;
-    content: " ";
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    background-color: rgba(236, 111, 61, 0.5);
-    display: none;
-} */
-
-/* .work-card:hover::after {
-    display: block;
-} */
 
 #second-project {
     background: url(./images/CSS_snippet.png) no-repeat 0, 0;
@@ -251,9 +211,9 @@ main {
     background-size: cover ;
 }
 
-#second-project {
-    /* background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0; */
-}
+/* #fourth-project {
+    
+} */ 
 
 #fifth-project {
     background: url(https://placebear.com/640/360) no-repeat 0, 0;
