@@ -165,7 +165,7 @@ main {
     width: 100%;
     height: 15rem;
     border: .2rem solid var(--light);
-    background: url(./images/HoriseonScreenshot_srn.png) no-repeat 0, 0;
+    background: url(./images/oceansofknowledge.png) no-repeat 0, 0;
     position: relative;
     justify-content: end;
     align-items: flex-end;
@@ -207,13 +207,14 @@ main {
 }
 
 #third-project {
-    background: url(https://placekitten.com/200/300) no-repeat 0, 0;
+    background: url(./images/planner_scrn.png) no-repeat 0, 0;
     background-size: cover ;
 }
 
-/* #fourth-project {
-    
-} */ 
+#fourth-project {
+    background: url(./images/weatherScrn.png) no-repeat 0, 0;
+    background-size: cover ;    
+}
 
 #fifth-project {
     background: url(https://placebear.com/640/360) no-repeat 0, 0;
