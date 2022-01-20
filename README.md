@@ -1,8 +1,9 @@
 # <portfolio>
 ## Description 
 This is a Portfolio page created to show my work and present myself as a competitive hire. 
+===
 UPDATED: Oceans of Knowledge, Day Planner, and Weather app to project cards and added Resume to open
-
+===
 This was made using HTML and CSS. The main tools used were flex-box, css classes, ids, pseudo-classes and variables.
 
 This project has taught me about using flex-box for aligning items, making hover effects for images and links, and methods of responsive design.
