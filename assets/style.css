@@ -165,7 +165,7 @@ main {
     width: 100%;
     height: 15rem;
     border: .2rem solid var(--light);
-    background: url(./images/oceansofknowledge.png) no-repeat 0, 0;
+    background: url(./images/UDFB.gif) no-repeat 0, 0;
     position: relative;
     justify-content: end;
     align-items: flex-end;
@@ -203,7 +203,7 @@ main {
 
 
 #second-project {
-    background: url(./images/CSS_snippet.png) no-repeat 0, 0;
+    background: url(./images/oceansofknowledge.png) no-repeat 0, 0;
 }
 
 #third-project {
@@ -217,7 +217,7 @@ main {
 }
 
 #fifth-project {
-    background: url(https://placebear.com/640/360) no-repeat 0, 0;
+    background: url(./images/QuizQuestion.png) no-repeat 0, 0;
     background-size: cover;
 }
 
